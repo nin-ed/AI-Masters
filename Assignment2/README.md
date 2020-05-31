@@ -1,0 +1,2 @@
+## Explanation
+Ran epochs over 30 times with the condition that if validation loss exceeds training loss, stop training. I divided the dataset into 3 categories. First is the training set consisting of 60% data, and the rest two are validation set and testing set consisting of 20% data each. The structure I used consists of two hidden layers of size 512 and 64, which resulted is approximately 98% accuracy of testing set.
